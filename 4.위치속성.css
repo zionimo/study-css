@@ -1,0 +1,32 @@
+.m-box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  display: inline;
+}
+
+/* 정적위치 */
+.m-position-static {
+  position: static;
+}
+
+/* 상대위치 */
+.m-position-relative {
+  position: relative;
+  left: 30px;
+}
+
+/* 고정위치 */
+.m-position-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* 절대위치 */
+.m-position-absolute {
+  position: absolute;
+  top: 800px;
+  right: 10px;
+}

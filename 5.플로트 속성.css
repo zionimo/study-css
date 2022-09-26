@@ -1,0 +1,59 @@
+.header {
+  border: 3px solid orange;
+}
+
+.nav {
+  border: 3px solid red;
+  float: left;
+  width: 30%;
+}
+
+.section {
+  border: 3px solid green;
+}
+
+.m-box {
+  background-color: burlywood;
+  width: 300px;
+  height: 300px;
+  overflow: auto;
+}
+
+.float-box {
+  background-color: darksalmon;
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+.layout {
+  border: 3px solid brown;
+}
+
+.layout-header {
+  border: 3px solid yellow;
+}
+
+.layout-nav {
+  border: 3px solid rgb(0, 183, 255);
+  width: 25%;
+  float: left;
+}
+
+.layout-section {
+  border: 3px solid rgb(255, 94, 182);
+  width: 73%;
+  margin-left: 26%;
+}
+
+.layout-footer {
+  border: 3px solid mediumspringgreen;
+  clear: both;
+}
+
+/* 이미 사용한 클래스 이름을 묶어서 다른 속성 추가 기능 */
+/* 아래 요소에 포함된 요소들은 동일한 속성들이 적용됨 */
+.layout-header,
+.layout-footer {
+  text-align: center;
+}

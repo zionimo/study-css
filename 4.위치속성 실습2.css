@@ -1,0 +1,35 @@
+.bookmark {
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 150px;
+  height: 150px;
+  background-color: coral;
+  border: 3px solid black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.menu {
+  overflow: auto;
+  padding: 20px;
+  background-color: rgb(255, 252, 97);
+}
+
+.menu li {
+  float: left;
+  padding: 10px;
+  background-color: rgb(0, 128, 96);
+}

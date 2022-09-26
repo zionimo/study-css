@@ -1,0 +1,14 @@
+table {
+  background-color: rgb(255, 233, 204);
+  border-radius: 0 0 20px 20px;
+  border-collapse: collapse;
+}
+
+.table-title {
+  background-color: orange;
+  border-bottom: 1px solid brown;
+}
+
+.table-korea {
+  background-color: rgb(255, 250, 240);
+}

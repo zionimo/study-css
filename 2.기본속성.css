@@ -1,0 +1,65 @@
+h1 {
+  color: rgb(255, 255, 0);
+}
+/* image는 파일주소 또는 인터넷 주소를 통해 가져올 수 있다 */
+/* 대부분의 css 속성은 대분류-소분류로 이름이 지정되어 있다
+    대분류(background)로 접근을 하여 속성값을 할당해주게 되면 
+    관련된 속성을 동시에 작성할 수 있다 */
+body {
+  background-image: url(/img/img.jpg);
+  background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-attachment: fixed;
+}
+
+.mypicture {
+  width: 300px;
+  height: 300px;
+  background: green;
+}
+
+/* 텍스트 확인 */
+p {
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 3px;
+}
+
+h2 {
+  text-decoration: overline red 1px solid;
+  text-shadow: 1px 1px 2px pink;
+  font-family: HY견고딕;
+  font-size: 10px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+table {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  height: 200px;
+  empty-cells: hide;
+}
+
+tr {
+  border: 2px dashed blue;
+}
+
+td {
+  border: 1px dotted red;
+  vertical-align: bottom;
+}
